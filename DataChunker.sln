@@ -1,17 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataChunker", "DataChunker.vcproj", "{F43FA787-D656-43BD-9309-B5A323D74A7B}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataChunker", "DataChunker.vcxproj", "{F43FA787-D656-43BD-9309-B5A323D74A7B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sender", "Sender\Sender.vcproj", "{CBEEDFCC-A572-487E-812E-CEC0378CB62E}"
-	ProjectSection(ProjectDependencies) = postProject
-		{F43FA787-D656-43BD-9309-B5A323D74A7B} = {F43FA787-D656-43BD-9309-B5A323D74A7B}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sender", "Sender\Sender.vcxproj", "{CBEEDFCC-A572-487E-812E-CEC0378CB62E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Receiver", "Receiver\Receiver.vcproj", "{A56F8DD2-CFEF-4B26-9F0C-38EF2424A8AC}"
-	ProjectSection(ProjectDependencies) = postProject
-		{F43FA787-D656-43BD-9309-B5A323D74A7B} = {F43FA787-D656-43BD-9309-B5A323D74A7B}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Receiver", "Receiver\Receiver.vcxproj", "{A56F8DD2-CFEF-4B26-9F0C-38EF2424A8AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
